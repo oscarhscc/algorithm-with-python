@@ -13,12 +13,12 @@ class Solution:
         num = [1]
         # 分别定义2,3,5的系数
         x, y, z = 0, 0, 0
-        for i in range(index-1):
-            while 2*num[x]<=num[-1]:
+        for i in range(index - 1):
+            while 2*num[x] <= num[-1]:
                 x+=1
-            while 3*num[y]<=num[-1]:
+            while 3*num[y] <= num[-1]:
                 y+=1
-            while 5*num[z]<=num[-1]:
+            while 5*num[z] <= num[-1]:
                 z+=1
-            num.append(min(2*num[x],3*num[y],5*num[z]))
+            num.append(min(2*num[x], 3*num[y], 5*num[z]))
         return num[-1]
