@@ -10,7 +10,7 @@ class Solution:
         if not index:
             return 0
         # 初始化丑数数组
-        num =[1]
+        num = [1]
         # 分别定义2,3,5的系数
         x, y, z = 0, 0, 0
         for i in range(index-1):
