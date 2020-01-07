@@ -4,29 +4,29 @@
 '''
 
 '''
-			point1
+	   point1
 linked list1: 1--->2--->6
-			point2
+	   point2
 linked list2: 3--->4--->5   point1 < point2 ===> result: 1
 
- 			     point1
+ 	         point1
 linked list1: 1--->2--->6
-			point2
+	    point2
 linked list2: 3--->4--->5   point1 < point2 ===> result: 1--->2
 
- 			          point1
+ 	             point1
 linked list1: 1--->2--->6
-			point2
+	    point2
 linked list2: 3--->4--->5   point1 > point2 ===> result: 1--->2--->3
 
- 			          point1
+ 		      point1
 linked list1: 1--->2--->6
-			     point2
+	         point2
 linked list2: 3--->4--->5   point1 > point2 ===> result: 1--->2--->3--->4
 
- 			          point1
+ 		      point1
 linked list1: 1--->2--->6
-			          point2
+	              point2
 linked list2: 3--->4--->5   point1 > point2 ===> result: 1--->2--->3--->4--->5
 
 result: 1--->2--->3--->4--->5--->6
