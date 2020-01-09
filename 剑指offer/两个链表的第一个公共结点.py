@@ -5,9 +5,9 @@
 
 '''
 pHead1 A--------
-				|_____
-				|C	  D     AC + CD + BC = BC + CD + AC
-	pHead2 B----
+		|_____
+		|C    D     AC + CD + BC = BC + CD + AC
+    pHead2 B----
 '''
 
 # -*- coding:utf-8 -*-
