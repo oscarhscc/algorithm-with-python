@@ -38,7 +38,7 @@ class Solution(object):
                 if first[i-1] == second[j-1]:
                     DP[i][j] =  DP[i-1][j-1]
                 else:
-                    DP[i][j]  =  min(DP[i-1][j] + 1,DP[i][j-1] + 1,DP[i-1][j-1]+1)
+                    DP[i][j]  =  min(DP[i-1][j]+1,DP[i][j-1]+1,DP[i-1][j-1]+1)
         if DP[len1][len2] > 1:
             return False
         else:
