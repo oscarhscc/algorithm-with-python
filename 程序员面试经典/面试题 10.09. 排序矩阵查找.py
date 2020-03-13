@@ -15,8 +15,6 @@
 给定 target = 5，返回 true。
 
 给定 target = 20，返回 false。
-
-通过次数601提交次数1,230
 '''
 
 class Solution(object):
